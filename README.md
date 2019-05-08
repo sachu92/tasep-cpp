@@ -3,7 +3,7 @@ Monte carlo simulator for Totally Asymmetric Simple Exclusion Process (TASEP) on
 
 TASEP is an ideal model in nonequilibrium statistical mechanics. It is useful in modeling a wide range of transport phenomena including road traffic and translation of mRNA in protein synthesis. 
 A 1D open ended lattice is considered here. The dynamics is governed by the following set of rules:
-- Particles enter from the left end with and entry rate $\alpha$. 
+- Particles enter from the left end with an entry rate $\alpha$. 
 - Particles can only move towards the right (totally asymmetric movement).
 - Particles can hop to the adjacent site on the right only if it is empty (exclusion interaction).
 - Particles leave from the site at the right end with an exit rate $\beta$.
